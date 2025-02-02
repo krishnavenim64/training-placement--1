@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int isSubstring(char *str, char *sub) {
+
+for (int i = 0 str[i] != '\0'; i++) { int j; }
+
+for ( j = 0 sub[j] != '\0'; j++) {
+
+(str * [i + j]! = sub[j]) break;
+
+if ( sub[j] ==^ prime 10^ prime ) return 1; // Found the substring
+
+}
+
+return 0; // Not found
+
+}
+
+int main() {
+
+char str[100], sub[50]; printf("Enter a string: "); fgets(str, sizeof(str), stdin); printf("Enter a substring: "); fgets(sub, sizeof(sub), stdin); str[strcspn(str, "[ n ^ prime prime )]=0; sub[strcspn(sub, "[ n ^ prime prime )]=0 if (isSubstring(str, sub)) { printf("Substring found.\n"); } else { printf("Not a Substring.\n"); }
+
+return 0;
